@@ -12,3 +12,5 @@ http://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made with love by Shastri Kungiesingh
+
+### copyright2019 Run Buddy, Inc
