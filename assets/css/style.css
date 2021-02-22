@@ -152,7 +152,6 @@ footer a {
 
 /* what we do section */
 .intro {
-    text-align: center;
 }
 
 .intro h2 {
@@ -164,12 +163,12 @@ footer a {
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
-    margin: 0 auto
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* what you do section */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -177,14 +176,15 @@ footer a {
     
 }
 
-/* consolidating intro h2 and steps h2 */
+/* what we do, consolidating intro h2 and steps h2 */
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -222,8 +222,7 @@ footer a {
 
 /* trainers section */
 .trainers {
-    text-align: center;
-}
+    }
 
 .trainer {
     width: 900px;
@@ -279,7 +278,6 @@ footer a {
 }
 
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
@@ -339,4 +337,8 @@ footer a {
     background-color: black;
     font-size: 20px;
     color: red;
+}
+
+.flex-row {
+    display: flex;
 }
